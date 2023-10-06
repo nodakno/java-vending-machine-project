@@ -13,7 +13,7 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
         HashMap<String, Integer> items = new HashMap<String, Integer>();
 
-        items.put("Juice", 100);
+        items.put("juice", 100);
         items.put("water", 45);
         items.put("soda", 50);
         items.put("chocolate bar", 75);

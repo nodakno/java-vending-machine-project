@@ -74,6 +74,7 @@ public class Main {
                         if (items.get(user_input_item) > user_input) {
                             System.out.println("Not enough money in machine.");
                         } else {
+                            user_money -= items.get(user_input_item);
                             int change = user_input - items.get(user_input_item);
                             for (int i = 0; i < coins.size(); i++) {
                                 System.out.println(coin_names.get(i) + ": " + change / coins.get(i));

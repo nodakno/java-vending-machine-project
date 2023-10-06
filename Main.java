@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 // this was actually quite challenging, especially the logic about change.
 
 public class Main {
-    static int user_money = 75;
+    static int user_money = 705;
     boolean running = true;
     public static void main(String[] args) throws InterruptedException{
         Scanner keyboard = new Scanner(System.in);
